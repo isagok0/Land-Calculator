@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- anasayfa strings -->
+
+	<string name="app_name">Arazi Ölçüm Hesaplama</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="_6_string">6</string>
+	<string name="_6_ek1_string">6</string>
+	<string name="arazide__l__m_bilgisi_string">Arazide Ölçüm Bilgisi</string>
+	<string name="toplam_y_zde_e_im_hesaplama_string">Toplam Yüzde Eğim Hesaplama</string>
+	<string name="harita_uzunlu_u_hesaplama_string">Harita Uzunluğu Hesaplama</string>
+	<string name="e_im_hesaplama_string">Eğim Hesaplama</string>
+	<string name="uzunluk_hesaplama_string">Uzunluk Hesaplama</string>
+	<string name="alan_hesaplama_string">Alan Hesaplama</string>
+	<string name="arazide_l_m_bilgisi">Arazide Ölçüm Bilgisi</string>
+	<string name="alan_hesaplama">ALAN HESAPLAMA</string>
+	<string name="e_m_hesaplama">EĞİM HESAPLAMA</string>
+	<string name="uzunluk_hesaplama">UZUNLUK HESAPLAMA</string>
+	<string name="toplam_y_zde_e_m_hesaplama">TOPLAM YÜZDE EĞİM HESAPLAMA</string>
+	<string name="har_ta_uzunlu_u_hesaplama">HARİTA UZUNLUĞU HESAPLAMA</string>
+	<string name="alan_hesaplama_form_l_n_ger_ek_alan_l_ekli_alan_l_ek">Alan Hesaplama Formülü :\n Gerçek Alan = Ölçekli Alan / (Ölçek)²</string>
+	<string name="l_e_i_girin">Ölçeği Girin</string>
+	<string name="l_ekli_alan_girin">Ölçekli Alanı Girin</string>
+	<string name="ger_ek_alan">Gerçek Alan:</string>
+	<string name="hesapla">Hesapla</string>
+	<string name="form_l_n_l_ek_harita_zerindeki_uzunluk_ger_ek_d_nya_uzunlu_u">FORMÜL :\n Ölçek = Harita üzerindeki uzunluk / Gerçek dünya uzunluğu</string>
+	<string name="ger_ek_d_nya_uzunlu_u_girin">Gerçek dünya uzunluğu Girin</string>
+	<string name="l_ek_girin">Ölçek Girin</string>
+	<string name="ger_ek_harita_uzunlu_u">Gerçek Harita Uzunluğu :</string>
+	<string name="toplam_y_zde_e_im_n_toplam_y_kseklik_fark_toplam_yatay_mesafe_x_100">% Toplam Yüzde Eğim = \n (Toplam Yükseklik Farkı / Toplam Yatay Mesafe) x 100</string>
+	<string name="toplam_yatay_mesafe_girin">Toplam Yatay Mesafe Girin</string>
+	<string name="toplam_y_kseklik_fark_girin">Toplam Yükseklik Farkı Girin</string>
+	<string name="toplam_y_zde_e_im">% Toplam Yüzde Eğim :</string>
+	<string name="uzunluk_hesaplama_form_l_n_ger_ek_uzunluk_l_ekli_uzunluk_l_ek">Uzunluk Hesaplama Formülü : \n Gerçek Uzunluk = Ölçekli Uzunluk / Ölçek</string>
+	<string name="ger_ek_uzunluk">Gerçek Uzunluk:</string>
+	<string name="l_ekli_uzunluk_girin">Ölçekli Uzunluk Girin</string>
+	<string name="form_l_e_im_h_l_x_100">FORMÜL : % eğim = (∆H / L) x 100</string>
+	<string name="_1_nokta_y_ksekli_i_girin">1.Nokta Yüksekliği Girin</string>
+	<string name="ki_nokta_aras_ndaki_ny_zde_e_im">% İki Nokta Arasındaki \nYüzde Eğim :</string>
+	<string name="_2_nokta_y_ksekli_i_girin">2.Nokta Yüksekliği Girin</string>
+	<string name="image_description">Görüntü açıklaması</string>
+	<string name="d_me_8_rnek_levi">Düğme 8, Örnek İşlevi</string>
+	<string name="alanlarbosbirakilamaz" translatable="false">Alanlar boş bırakılamaz</string>
+	<string name="gercekharita">Gerçek Harita Uzunluğu :</string>
+	<string name="yuzde_egim">Yüzde Eğim :</string>
+
+</resources>

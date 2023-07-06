@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anasayfa2"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:id="@+id/lnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/form_l_e_im_h_l_x_100"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lnr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+        <EditText
+        android:id="@+id/editTextIlkSayi"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:autofillHints="phone"
+        android:textColor="@color/colorRed"
+        android:textColorHint="@color/colorRed"
+        android:inputType="number"
+        android:hint="@string/_1_nokta_y_ksekli_i_girin" />
+
+
+
+    <EditText
+        android:id="@+id/editTextIkinciSayi"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints="phone"
+        android:textColor="@color/colorRed"
+        android:textColorHint="@color/colorRed"
+        android:inputType="number"
+        android:hint="@string/_2_nokta_y_ksekli_i_girin" />
+
+        <TextView
+            android:id="@+id/textViewSonuc"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextIkinciSayi"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/ki_nokta_aras_ndaki_ny_zde_e_im"
+            android:textStyle="bold"
+            android:textColor="@color/colorRed"
+            android:textColorHint="@color/colorRed"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/buttonHesapla"
+            android:layout_width="159dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_background"
+            android:text="@string/hesapla"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/lnr"
+            app:layout_constraintTop_toBottomOf="@+id/lnr" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

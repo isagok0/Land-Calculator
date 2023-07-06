@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anasayfa2"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/form_l_n_l_ek_harita_zerindeki_uzunluk_ger_ek_d_nya_uzunlu_u"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lnr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/lnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/buttonHesapla"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/editTextGercekUzunluk"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="30dp"
+            android:autofillHints="phone"
+            android:inputType="number"
+            android:textColor="@color/colorRed"
+            android:textColorHint="@color/colorRed"
+            android:hint="@string/ger_ek_d_nya_uzunlu_u_girin" />
+
+        <EditText
+            android:id="@+id/editTextOlcek"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:autofillHints="phone"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorRed"
+            android:textColorHint="@color/colorRed"
+            android:hint="@string/l_e_i_girin"
+            android:inputType="number"
+
+            />
+
+        <TextView
+            android:id="@+id/textViewSonuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextOlcek"
+            android:layout_alignStart="@+id/editTextOlcek"
+            android:layout_marginTop="30dp"
+            android:text="@string/ger_ek_harita_uzunlu_u"
+            android:textColor="@color/colorRed"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonHesapla"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_background"
+        android:text="@string/hesapla"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lnr"
+        app:layout_constraintTop_toBottomOf="@+id/lnr" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
